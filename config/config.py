@@ -13,9 +13,9 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "13399054"))
 API_HASH = getenv("API_HASH", "585801d590dac4c79aeaa7bcda495e62")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "6272613157:AAGmLeGiKZC2gDoyUwoLiH4ySt8I82A9Ujs")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "6272613157:AAGmLeGiKZC2gDoyUwoLiH4ySt8I82A9Ujs")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://prajeenthegrate:prajeenthegrate@cluster0.kmkxk4j.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
