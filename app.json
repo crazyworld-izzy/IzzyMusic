@@ -15,12 +15,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "13399054",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "585801d590dac4c79aeaa7bcda495e62",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
@@ -30,27 +30,27 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "6272613157:AAGmLeGiKZC2gDoyUwoLiH4ySt8I82A9Ujs",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Ramdi's database for you.",
-        "value": "",
+        "value": "mongodb+srv://prajeenthegrate:prajeenthegrate@cluster0.kmkxk4j.mongodb.net/?retryWrites=true&w=majority",
         "required": false
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "乛���𝙉𝙀🕊⃝🦋⁪⁬𝙈𝙐𝙎𝙄𝘾⁬",
+        "value": "🦋𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥😻⤍🖤⁬",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "5303133436",
+        "value": "6021591808",
         "required": true
       },
       "STRING_SESSION": {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
-        "value": "",
+        "value": "BQApsSSDQAEYB3kchsBhvMO5CrTU1VgCywcV7zy6YHjFcaQVMKcCQGaM3nZ5T7V69w0Jwg6J6OD9fr3iPlqXMfIvkqL0XwaMdikKHUEj96MoplT0pUeDt9ZRYhEDhwmaojLo9Pml3qed4lyKct14KSQbLhjWcf3bMNRmg-v_phfDKyYkqHIfdFBL30Cnl_XGb4P4QUV7Zl3fI8_teHZl16LUf8MWD4L77YPDxcttFNZHVo71behB489Oypzc6139D87XIL4HyL2brOYaitUqjjic_fpEkUWxxdu-sYkTnXmNGOD2RaE_1buGWHK5AuJ_r8vkgw4rdi0UUsMI_LbrwrI3AAAAAXhpMBAA",
         "required": true
       },
       "PING_IMG_URL": {
@@ -75,7 +75,7 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "",
+        "value": "-1001942830899",
         "required": true
       },
       "UPSTREAM_REPO": {
