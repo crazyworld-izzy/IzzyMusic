@@ -18,8 +18,8 @@ def song_markup(_, vidid):
         ],
         [
             InlineKeyboardButton(
-                text="• sᴜᴩᴩᴏʀᴛ •",
-                url="https://t.me/Heiriyee",
+                text="🦋𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 𝐒𖽪𖽳𖽳𖽙𖽷𖾓😻⤍🖤",
+                url="https://t.me/cute_girl_support",
             ),
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
         ],
