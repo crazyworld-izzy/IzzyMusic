@@ -10,25 +10,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     IzzyMusic = math.floor(percentage)
     if 0 < IzzyMusic <= 10:
-        bar = "𖢵—————————"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
     elif 10 < IzzyMusic < 20:
-        bar = "—𖢵————————"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
     elif 20 <= IzzyMusic < 30:
-        bar = "——𖢵———————"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
     elif 30 <= IzzyMusic < 40:
-        bar = "———𖢵——————"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
     elif 40 <= IzzyMusic < 50:
-        bar = "————𖢵—————"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
     elif 50 <= IzzyMusic < 60:
-        bar = "—————𖢵————"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
     elif 60 <= IzzyMusic < 70:
-        bar = "——————𖢵———"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
     elif 70 <= IzzyMusic < 80:
-        bar = "———————𖢵——"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
     elif 80 <= IzzyMusic < 95:
-        bar = "————————𖢵—"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
     else:
-        bar = "—————————𖢵"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
 
     buttons = [
         [
@@ -48,14 +48,14 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             InlineKeyboardButton(text="✚", callback_data=f"add_playlist|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(text="[🇮🇳] Dᴇᴠ", url=f"https://t.me/Heiriyee"),
+            InlineKeyboardButton(text="🍷 𝐎𖾟𖽡𖽞𖾖 😻", url=f"https://t.me/"),
             InlineKeyboardButton(
-                text="Cʜᴀᴛ Gʀᴏᴜᴘ", url=f"https://t.me/Heiriyee"
+                text="🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 𝐒𖽪𖽳𖽳𖽙𖽷𖾓 😻", url=f"https://t.me/cute_girl_support"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="• Cʟᴏsᴇ •", callback_data=f"ADMIN CloseA|{chat_id}"
+                text="🍷 𝐂𖾘𖽙𖾗𖾝  😻", callback_data=f"ADMIN CloseA|{chat_id}"
             )
         ],
     ]
@@ -68,25 +68,25 @@ def telegram_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     OpVirMusic = math.floor(percentage)
     if 0 < IzzyMusic <= 10:
-        bar = "⬤─────────"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
     elif 10 < IzzyMusic < 20:
-        bar = "━⬤────────"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
     elif 20 <= IzzyMusic < 30:
-        bar = "━━⬤───────"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
     elif 30 <= IzzyMusic < 40:
-        bar = "━━━⬤──────"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
     elif 40 <= IzzyMusic < 50:
-        bar = "━━━━⬤─────"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
     elif 50 <= IzzyMusic < 60:
-        bar = "━━━━━⬤────"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
     elif 60 <= IzzyMusic < 70:
-        bar = "━━━━━━⬤───"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
     elif 70 <= IzzyMusic < 80:
-        bar = "━━━━━━━⬤──"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
     elif 80 <= IzzyMusic < 95:
-        bar = "━━━━━━━━⬤─"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
     else:
-        bar = "━━━━━━━━━⬤"
+        bar = "🍷 𝆺𝅥𓆩〭〬𝐂𖽪֟፝𖾓𖾝 ԍ𖽹𖾜֟፝𖾘 𝆺𝅥 😻"
 
     buttons = [
         [
@@ -109,7 +109,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="• Cʟᴏsᴇ •", callback_data=f"ADMIN CloseA|{chat_id}"
+                text="🍷 𝐂𖾘𖽙𖾗𖾝  😻", callback_data=f"ADMIN CloseA|{chat_id}"
             )
         ],
     ]
@@ -130,7 +130,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="• Cʟᴏsᴇ •", callback_data=f"ADMIN CloseA|{chat_id}"
+                text="🍷 𝐂𖾘𖽙𖾗𖾝  😻", callback_data=f"ADMIN CloseA|{chat_id}"
             )
         ],
     ]
@@ -296,16 +296,16 @@ def panel_markup_1(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⇆ Sʜᴜғғʟᴇ ⇆",
+                text="🍷 𝐒𖽻𖽪ꜰꜰ𖽞 😻",
                 callback_data=f"ADMIN Shuffle|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="↻ Lᴏᴏᴩ ↻", callback_data=f"ADMIN Loop|{chat_id}"
+                text="🍷 𝐋𖽙𖽙𖽳 😻", callback_data=f"ADMIN Loop|{chat_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="° Bᴀᴄᴋ °",
+                text="🍷 𝐁𖽖𖽝ᴋ 😻",
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
         ],
@@ -316,7 +316,7 @@ def panel_markup_1(_, videoid, chat_id):
 ## Extra Shit
 
 close_keyboard = InlineKeyboardMarkup(
-    [[InlineKeyboardButton(text="• Cʟᴏsᴇ •", callback_data="close")]]
+    [[InlineKeyboardButton(text="🍷 𝐂𖾘𖽙𖾗𖾝  😻", callback_data="close")]]
 )
 
 
@@ -327,7 +327,7 @@ def queue_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="• Cʟᴏsᴇ •", callback_data=f"ADMIN CloseA|{chat_id}"
+                text="🍷 𝐂𖾘𖽙𖾗𖾝  😻", callback_data=f"ADMIN CloseA|{chat_id}"
             )
         ],
     ]
